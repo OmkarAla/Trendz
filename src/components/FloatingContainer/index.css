@@ -1,0 +1,45 @@
+/* Floating container styling */
+.floating-container {
+  position: fixed;
+  top: 20vh;
+  right: 30vw;
+  z-index: 1000;
+}
+
+/* Styling for the floating box */
+.floating-box {
+  background-color: #4c77af;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  border: 0px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 150px;
+  transition: background-color 0.3s ease;
+}
+
+.floating-box:hover {
+  background-color: #2070aa; /* Darker shade on hover */
+}
+
+/* Styling for "Watch Me!" text */
+.watch-me-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Styling for credentials container */
+.credentials {
+  margin-top: 10px;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.credentials p {
+  margin: 5px 0;
+}
